@@ -4,3 +4,9 @@
 [submodule "meshtestic"]
 	path = meshtestic
 	url = https://github.com/meshtastic/meshTestic
+[submodule "lib/LilyGo_T5_47_Epaper"]
+	path = lib/LilyGo_T5_47_Epaper
+	url = https://github.com/alohajpm/T5S3-4.7-e-paper-PRO
+[submodule "lib/Meshtastic"]
+	path = lib/Meshtastic
+	url = https://github.com/meshtastic/firmware.git
