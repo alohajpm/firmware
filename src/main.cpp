@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "variant.h"
 #include <GxEPD.h>
 #include <GxGDEW047C80/GxGDEW047C80.h>
 #include <GxIO/GxIO_SPI/GxIO_SPI.h>
