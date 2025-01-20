@@ -1,7 +1,6 @@
 #pragma once
 
 #include "OneButton.h"
-#include "concurrency/OSThread.h"
 #include "configuration.h"
 
 #ifndef BUTTON_CLICK_MS
@@ -16,7 +15,7 @@
 #define BUTTON_TOUCH_MS 400
 #endif
 
-class ButtonThread : public concurrency::OSThread
+class ButtonThread : public ::Thread
 {
   public:
     static const uint32_t c_holdOffTime = 30000; // hold off 30s after boot

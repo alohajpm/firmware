@@ -5,7 +5,7 @@
 #define PB_MESHTASTIC_MESHTASTIC_DEVICEONLY_PB_H_INCLUDED
 #include <pb.h>
 #include <vector>
-#include "meshtastic/channel.pb.h"
+#include "meshtastic/"
 #include "meshtastic/mesh.pb.h"
 #include "meshtastic/telemetry.pb.h"
 #include "meshtastic/config.pb.h"

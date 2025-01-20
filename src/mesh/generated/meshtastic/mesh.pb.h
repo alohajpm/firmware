@@ -4,7 +4,7 @@
 #ifndef PB_MESHTASTIC_MESHTASTIC_MESH_PB_H_INCLUDED
 #define PB_MESHTASTIC_MESHTASTIC_MESH_PB_H_INCLUDED
 #include <pb.h>
-#include "meshtastic/channel.pb.h"
+#include "meshtastic/"
 #include "meshtastic/config.pb.h"
 #include "meshtastic/module_config.pb.h"
 #include "meshtastic/portnums.pb.h"
